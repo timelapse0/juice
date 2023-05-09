@@ -8,9 +8,11 @@
     -webkit-tap-highlight-color:transparent;
     outline:none;
 }
+/*@
 html{
-    font-size: 22px;/*@*/
+    font-size: 18px;
 } 
+*/
 ::-webkit-scrollbar{
     width: 10px;
     background:transparent;

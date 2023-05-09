@@ -337,8 +337,8 @@
                     var typed = new Typed("#subtitle", {
                         strings: ['即使身处阴沟，也别忘了仰望星空！','道力之限，要靠愿力突破。'],
                         startDelay: 300,
-                        typeSpeed: 100,
-                        loop: false,
+                        typeSpeed: 40,
+                        loop: true,
                         backSpeed: 50,
                         showCursor: true
                     });
@@ -371,6 +371,56 @@
     <!-- 所有文章卡片 -->
     <article id="articles" class="container articles">
         <div class="row article-row">
+            
+            <div class="article col s12 m6 l4" data-aos="zoom-in">
+                <div class="card">
+                    <a href="/juice/2023/01/30/group/">
+                        <div class="card-image">
+                            
+                            
+                            <img src="/juice/medias/featureimages/1.jpeg" class="responsive-img" alt="乌合之众">
+                            
+                            <span class="card-title">乌合之众</span>
+                        </div>
+                    </a>
+
+                    <div class="card-content article-content">
+                        <div class="summary block-with-text">
+                            
+                                
+大部分人在个体行为中是非理性的。
+
+
+                            
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-01-30
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-user fa-fw"></i>
+                                Juice233
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="card-action article-tags">
+                        
+                        <a href="/juice/tags/%E7%BE%A4%E4%BD%93/">
+                            <span class="chip bg-color">群体</span>
+                        </a>
+                        
+                        <a href="/juice/tags/%E5%A4%A7%E4%BC%97%E5%BF%83%E7%90%86/">
+                            <span class="chip bg-color">大众心理</span>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
             
             <div class="article col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
@@ -902,51 +952,6 @@ creat
                 </div>
             </div>
             
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/juice/2023/01/30/bian-xian/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/juice/medias/featureimages/5.jpeg" class="responsive-img" alt="脑洞变现">
-                            
-                            <span class="card-title">脑洞变现</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary block-with-text">
-                            
-                                我不能尝试，所以我不敢尝试
-
-人有些时候要为自己的脑洞付出点代价，比如我进了一个房间，要么自甘堕落，要么忍受沉默。想要回归自己未进房的时刻本就毫无可能。所以，开启一个脑洞，却想让它成为现实，有时须要付出精力和时间，这时往往渴望悬崖勒马，但实
-                            
-                        </div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2023-01-30
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                Juice233
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                    <div class="card-action article-tags">
-                        
-                        <a href="/juice/tags/%E6%A2%A6%E6%83%B3%E4%B8%8E%E7%8E%B0%E5%AE%9E/">
-                            <span class="chip bg-color">梦想与现实</span>
-                        </a>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-            
         </div>
     </article>
 
@@ -1138,7 +1143,7 @@ L2Dwidget.init({
         },
         "mobile": {
             "show": true,
-            "scale": 0.02
+            "scale": 0.01
         },
         "react": {
             "opacityDefault": 1,
